@@ -1,0 +1,16 @@
+{
+  "name": "Scrim-s0361ad1l5",
+  "description": "https://scrimba.com/s0361ad1l5/head",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "langchain": "0.0.151",
+    "@supabase/supabase-js": "2.36.0",
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
