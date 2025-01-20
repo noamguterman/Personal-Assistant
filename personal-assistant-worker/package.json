@@ -1,0 +1,20 @@
+{
+  "name": "personal-assistant-worker",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.5.2",
+    "vitest": "2.1.8",
+    "wrangler": "^3.103.2"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.36.0",
+    "langchain": "^0.0.151"
+  }
+}
